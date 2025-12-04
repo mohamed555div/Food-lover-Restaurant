@@ -1414,6 +1414,11 @@ section {
         width: 100%;
     }
 
+    .history-content{
+        display: flex;
+        flex-direction: column;
+    }
+
     .history-text p {
         font-size: 14px;
         padding: 0 5px;
@@ -1515,6 +1520,10 @@ section {
         padding: 8px 16px;
         font-size: 14px;
     }
+
+    .contact-container{
+        flex-direction: column;
+    }
 }
 
 
@@ -1577,6 +1586,8 @@ body.menu-open {
 
 
 
+
+
 ::-webkit-scrollbar {
     width: 10px;
 }
@@ -1586,6 +1597,8 @@ body.menu-open {
     background: #222;
     border-radius: 10px;
 }
+
+
 
 
 ::-webkit-scrollbar-thumb {
